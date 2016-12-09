@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<PMML version="4.0"
+    xsi:schemaLocation="http://www.dmg.org/PMML-4_0
+    http://dmg.org/pmml/v4-0-1/pmml-4-0.xsd"
+    xmlns="http://www.dmg.org/PMML-4_0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Header copyright="Copyright (c) 2011 Google, Inc.  All rights reserved.">
+    <Application name="Google Prediction API Sample" version="1.4"/>
+  </Header>
+  <DataDictionary numberOfFields="16">
+    <DataField name="x1"  optype= "continuous" dataType="double"/>
+    <DataField name="x2" opype= "continuous"  dataType="double"/>
+    <DataField name="x3" optype= "continuous"  dataType="integer"/>
+    <DataField name="x4" optype= "continuous"  dataType="integer"/>
+    <DataField name="x5"  optype= "continuous" dataType="integer"/>
+    <DataField name="x6" opype= "continuous"  dataType="integer"/>
+    <DataField name="x7" optype= "continuous"  dataType="integer"/>
+    <DataField name="x8" optype= "continuous"  dataType="integer"/>
+    <DataField name="x9"  optype= "continuous" dataType="integer"/>
+    <DataField name="x10" opype= "continuous"  dataType="integer"/>
+    <DataField name="x11" optype= "continuous"  dataType="integer"/>
+    <DataField name="x12" optype= "continuous"  dataType="integer"/>
+    
+    <DataField name="x13"  optype= "continuous" dataType="boolean"/>
+    <DataField name="x14" opype= "continuous"  dataType="boolean"/>
+    <DataField name="x15" optype= "continuous"  dataType="boolean"/>
+    <DataField name="x16" optype= "continuous"  dataType="boolean"/>
+  </DataDictionary>
+  
+
+
+</PMML>
